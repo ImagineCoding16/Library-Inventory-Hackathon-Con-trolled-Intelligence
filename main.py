@@ -1,5 +1,4 @@
 #Fiction
-
 Fiction= {"001":"The Book Theif by Markus Zusak.", 
           "002": "The Hate You Give by Angie Thomas", 
           "003": "Hunger Games by Suzzane Collins", 
