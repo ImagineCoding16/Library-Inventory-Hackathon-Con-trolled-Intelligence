@@ -521,6 +521,7 @@ while cont!="exit":
         if refno in Issued:
           print("Your book has been returned! Thank you!")
           Fiction.update({refno: bookn})
+          Issued.remove(refno)
         else:
           print("The book doesn't belong here!!")
 
@@ -542,6 +543,7 @@ while cont!="exit":
         if refno in Issued:
           print("Your book has been returned! Thank you!")
           Sci_fi.update({refno: bookn})
+          Issued.remove(refno)
         else:
           print("The book doesn't belong here!!")
 
@@ -561,7 +563,8 @@ while cont!="exit":
         bookn= input()
         if refno in Issued:
           print("Your book has been returned! Thank you!")
-          Fiction.update({refno: bookn})
+          Horror.update({refno: bookn})
+          Issued.remove(refno)
         else:
           print("The book doesn't belong here!!")
 
@@ -582,6 +585,7 @@ while cont!="exit":
         if refno in Issued:
           print("Your book has been returned! Thank you!")
           Thriller.update({refno: bookn})
+          Issued.remove(refno)
         else:
           print("The book doesn't belong here!!")
 
@@ -602,6 +606,7 @@ while cont!="exit":
         if refno in Issued:
           print("Your book has been returned! Thank you!")
           Fantasy.update({refno: bookn})
+          Issued.remove(refno)
         else:
           print("The book doesn't belong here!!")
 
